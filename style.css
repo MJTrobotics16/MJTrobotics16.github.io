@@ -347,3 +347,16 @@ footer{
     font-size:1.1rem;
     line-height:1.8;
 }
+.hero-divider{
+    width:140px;
+    height:2px;
+
+    margin:25px auto;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        var(--gold),
+        transparent
+    );
+}
