@@ -6,23 +6,16 @@
 }
 
 body {
-  background: #0f1117;
+  background: #0f111a;
   color: white;
-  overflow-x: hidden;
 }
 
 /* NAVBAR */
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
-  background: rgba(0,0,0,0.4);
-  backdrop-filter: blur(10px);
-  z-index: 1000;
+  padding: 20px 40px;
 }
 
 .logo {
@@ -31,48 +24,46 @@ body {
   letter-spacing: 2px;
 }
 
-.nav-links {
+.navbar ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
-.nav-links a {
-  color: white;
+.navbar a {
   text-decoration: none;
+  color: white;
   opacity: 0.8;
 }
 
-.nav-links a:hover {
+.navbar a:hover {
   opacity: 1;
 }
 
 /* HERO */
 .hero {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 80px;
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-size: 64px;
   margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.7;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
-/* BUTTON */
 .btn {
-  padding: 12px 24px;
-  background: gold;
+  padding: 12px 20px;
+  background: white;
   color: black;
   text-decoration: none;
   border-radius: 8px;
@@ -80,5 +71,5 @@ body {
 }
 
 .btn:hover {
-  background: #e6c200;
+  background: #ddd;
 }
