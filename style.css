@@ -339,3 +339,11 @@ footer{
     }
 
 }
+
+.hero-description{
+    max-width:700px;
+    margin:0 auto 40px;
+    color:#c7d3e8;
+    font-size:1.1rem;
+    line-height:1.8;
+}
