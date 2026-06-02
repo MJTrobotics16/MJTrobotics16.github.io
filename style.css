@@ -399,3 +399,23 @@ footer{
     display:inline-block;
     margin-top:40px;
 }
+
+
+.hero .btn{
+    display:inline-block;
+    margin-top:40px;
+    padding:18px 42px;
+    font-size:1.1rem;
+    font-weight:700;
+    border-radius:16px;
+    text-decoration:none;
+    background:linear-gradient(135deg,#6d7dff,#8f6dff);
+    color:white;
+    box-shadow:0 0 35px rgba(109,125,255,.45);
+    transition:.3s;
+}
+
+.hero .btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 50px rgba(109,125,255,.7);
+}
