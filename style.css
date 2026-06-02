@@ -104,11 +104,12 @@ body::after{
 }
 
 .hero-description{
-    max-width:900px;
-    color:#d7dbe8;
-    font-size:1.2rem;
+    max-width:800px;
+    margin:25px auto 0 auto;
+    text-align:center;
+    font-size:1.45rem;
     line-height:1.8;
-    margin-bottom:40px;
+    color:rgba(255,255,255,.85);
 }
 
 .hero-buttons{
