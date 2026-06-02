@@ -349,3 +349,22 @@ footer{
     max-width:800px;
     margin:auto;
 }
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:16px 36px;
+    background:linear-gradient(135deg,#6d7dff,#8f6dff);
+    color:white !important;
+    text-decoration:none;
+    border-radius:14px;
+    font-size:1.1rem;
+    font-weight:600;
+    box-shadow:0 0 30px rgba(109,125,255,.35);
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 45px rgba(109,125,255,.55);
+}
